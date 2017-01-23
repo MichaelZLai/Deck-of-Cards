@@ -1,0 +1,55 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.deal{
+  background-color: green;
+  color: white;
+  height: 50px;
+  width: 100px;;
+  margin: 20px;
+}
+
+#table{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.card{
+  width: 20%;
+  height: 360px;
+  margin: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+
+.top{
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.middle{
+  text-align: center;
+  height: 270px;
+  padding-top: 30px;
+}
+
+.bottom{
+  text-align: right;
+  margin-right: 10px;
+  transform:rotateX(180deg);
+}
+
+.big{
+  font-size: 120px;
+}
